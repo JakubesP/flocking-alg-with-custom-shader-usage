@@ -1,0 +1,1 @@
+This is a simple example of using the proprietary SWGL library.
