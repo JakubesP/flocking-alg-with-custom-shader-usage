@@ -56,7 +56,7 @@ impl AppState {
         // ----------------------------- load resources -----------------------
 
         let shader_file_path = "static/my_shader.glsl";
-        let loaded_resource = resources_loader::read_local_files(&[shader_file_path])
+        let loaded_resource = resources_loader::get_files(&[shader_file_path])
             .await
             .unwrap();
         let shader_code =
